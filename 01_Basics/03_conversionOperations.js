@@ -51,12 +51,12 @@ let str3 = str1 + str2;
 console.log(str3);
 
 let a = 20;
-let b = a++; // this is post increment , 1st a is assigned to b and then it's value is increased
+let b = a++; // this is post increment, 1st a is assigned to b and then its value is increased
 console.log(b);
 console.log(a);
 
 let c = 20;
-let d = ++c; // this preincrement, 1st the value is increased and then it is  assigned
+let d = ++c; // this prei ncrement, 1st the value is increased and then it is  assigned
 console.log(c);
 console.log(d);
 
@@ -68,6 +68,7 @@ let num1, num2, num3 ;
 
 num1 = num2 = num3 = 4 + 4;
 console.log(num1)
+
 
 
 
