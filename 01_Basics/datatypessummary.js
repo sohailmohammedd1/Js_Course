@@ -40,5 +40,6 @@ console.log(isArray)
 console.log(isObj)
 
 console.log(typeof isArray);
-account(); // to call the function
+account(); // to call/ execute the function
 console.log(account)// returns [function : account] only prints , doesn't execute
+
