@@ -9,9 +9,9 @@ console.log(3
 
 console.log("Sohail")
 
-let name ="Sohail"
-let age = 26
-let isLoggedIn = false
+let name ="Sohail";
+let age = 26;
+let isLoggedIn = false;
 let state;
 
 // number => 2 power 53
@@ -22,5 +22,5 @@ let state;
 // undefined => 
 // symbol => unique
 
-console.log(typeof undefined) // undefined
-console.log(typeof null) // object
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object
