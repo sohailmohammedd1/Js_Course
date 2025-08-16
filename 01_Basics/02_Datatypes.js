@@ -7,6 +7,8 @@ console.log(3
     +
     3) // readability is top priority
 
+console.log("Sohail")
+
 let name ="Sohail"
 let age = 26
 let isLoggedIn = false
