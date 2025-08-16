@@ -1,1 +1,1 @@
-welcome to javascript journey
+welcome to my javascript journey
