@@ -1,3 +1,4 @@
+
 // primitive datatypes
 // 7 types
 
@@ -40,6 +41,32 @@ console.log(isArray)
 console.log(isObj)
 
 console.log(typeof isArray);
+
 account(); // to call/ execute the function
 console.log(account)// returns [function : account] only prints , doesn't execute
 
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+/////////////// stack and heap memory /////////////////////
+
+// primitives datatypes are stored in stack and non primitives in heap memory 
+
+let iOne = "sohail";
+
+let iTwo = iOne;
+iTwo = "Khabib";
+
+console.log(iOne);
+console.log(iTwo);
+
+let user1 = {
+    email : "sohail@meta.com",
+    call : 989893
+} 
+
+let user2 = user1;
+
+user2.email = "sohail@oracle.com";
+
+console.log(user1.email);
+console.log(user2.email);
